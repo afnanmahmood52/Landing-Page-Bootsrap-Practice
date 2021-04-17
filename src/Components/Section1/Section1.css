@@ -1,0 +1,54 @@
+section#\#section1 {
+    margin-top: 40px;
+    background: #0e2233;
+    /* height: 100vh; */
+}
+
+.text-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.text-section h5 {
+    color: white;
+}
+
+.text-section h1 {
+    color: white;
+    font-size: 43px;
+}
+
+.text-section p {
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.book-header-img img {
+    width: 100%;
+    float: left;
+}
+
+button.buy-now {
+    width: 180px;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding: 4px 14px;
+    border-radius: 19px;
+    font-weight: 700;
+    border: white 2px solid;
+    color: #0e2233;
+    outline: none;
+}
+
+button.buy-now:hover {
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: white 2px solid;
+    transition: ease-in-out 0.3s;
+}

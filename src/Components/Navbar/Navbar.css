@@ -1,0 +1,20 @@
+.navbar{
+    background-color: rgb(70, 70, 83) !important; 
+}
+
+.nav-item{
+    padding: 0 15px;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.nav-link:hover{
+    opacity: 0.6;
+}
+
+.navbar-toggler{
+    color: white !important;
+}
