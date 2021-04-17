@@ -1,0 +1,23 @@
+section#\#section2 {
+    margin: 40px 0;
+}
+
+.about-section-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section-img img {
+    width: 80%;
+    border-radius: 30px;
+}
+
+
+
+@media (min-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+}
