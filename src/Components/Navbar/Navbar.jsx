@@ -14,22 +14,19 @@ export default function Navbar() {
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav ml-auto">
       <li className="nav-item">
-        <a className="nav-link" href="#">HOME</a>
+        <a className="nav-link" href="#">Home</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">COURSE</a>
+        <a className="nav-link" href="#">About</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">PRICE</a>
+        <a className="nav-link" href="#">Features</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">PAGES</a>
+        <a className="nav-link" href="#">Pages</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">FACT</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">ABOUT</a>
+        <a className="nav-link" href="#">Fact</a>
       </li>
     </ul>
   </div>
