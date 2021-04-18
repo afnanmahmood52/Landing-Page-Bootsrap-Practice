@@ -7,7 +7,7 @@ export default function Section1() {
         <section id="#section1">
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-7 col-md-7">
+                    <div className="col-sm-7 col-md-7 col-lg-6">
                         <div className="text-section">
                             <h5>AUTHOR: AFNAN MAHMOOD</h5>
                             <h1>EXCITING ADVENTURE</h1>
@@ -17,7 +17,7 @@ export default function Section1() {
                             </button>
                         </div>
                     </div>
-                    <div className="col-sm-5 col-md-5">
+                    <div className="col-sm-5 col-md-5 col-lg-6">
                         <div className="book-header-img">
                             <img src={HeaderBook} alt="header Book"/>
                         </div>

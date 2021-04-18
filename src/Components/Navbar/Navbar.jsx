@@ -23,10 +23,7 @@ export default function Navbar() {
         <a className="nav-link" href="#section1">Features</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#section1">Pages</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#section1">Fact</a>
+        <a className="nav-link" href="#section1">Contact</a>
       </li>
     </ul>
   </div>
