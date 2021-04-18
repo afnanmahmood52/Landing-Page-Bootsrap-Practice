@@ -1,6 +1,7 @@
 import React from 'react'
 import './Section3.css'
 import CountUp from 'react-countup';
+import Fade from 'react-reveal/Fade';
 
 import BookImage from '../../Images/FeatureSection/1x/1x/book.png'
 import HouseImage from '../../Images/FeatureSection/1x/1x/house.png'
@@ -21,8 +22,8 @@ export default function Section3() {
                     <div className="col-md-2 col-sm-2"></div>
                 </div>
 
+                <Fade bottom>
                 <div className="row">
-                    
                     <div className="col-sm-12">
                         <div className="feature-section">
                             <div className="feature-card">
@@ -66,6 +67,7 @@ export default function Section3() {
                     </div>
                     
                 </div>
+                </Fade>
             </div>
         </section>
     )

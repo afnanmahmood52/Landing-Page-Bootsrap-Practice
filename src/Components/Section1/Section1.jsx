@@ -1,6 +1,7 @@
 import React from 'react'
 import './Section1.css'
 import HeaderBook from '../../Images/header-img.png'
+import Fade from 'react-reveal/Fade';
 
 export default function Section1() {
     return (
