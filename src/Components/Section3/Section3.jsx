@@ -11,6 +11,16 @@ export default function Section3() {
     return (
         <section id="#section3">
             <div className="container">
+            <div className="row">
+                    <div className="col-md-2 col-sm-2"></div>
+                    <div className="col-md-8 col-sm-8">
+                        <div className="about-main-title">
+                            <h1>OUR UNIQUENESS</h1>
+                        </div>
+                    </div>
+                    <div className="col-md-2 col-sm-2"></div>
+                </div>
+
                 <div className="row">
                     
                     <div className="col-sm-12">
