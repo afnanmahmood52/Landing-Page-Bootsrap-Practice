@@ -48,7 +48,7 @@ export default function ContactForm() {
             setPhoneErrorFlag(false)
         }
         else{
-            if(e.target.value == '')
+            if(e.target.value === '')
                 setPhoneErrorFlag(false)
             else{
                 setPhoneErrorMsg('Only Numbers are allowed')
@@ -68,7 +68,7 @@ export default function ContactForm() {
             setEmailErrorFlag(false)
         }
         else{
-            if(e.target.value == '')
+            if(e.target.value === '')
                 setEmailErrorFlag(false)
             else{
                 setEmailErrorMsg('A valid email is required')
@@ -86,7 +86,17 @@ export default function ContactForm() {
 
     return (
         <section id="#contact-form">
+        <div className="contact-form">
         <div className="container">
+            <div className="row">
+                <div className="col-md-2 col-sm-2"></div>
+                <div className="col-md-8 col-sm-8">
+                    <div className="contact-form-main-title">
+                        <h1>HAVE ANY QUESTIONS?</h1>
+                    </div>
+                </div>
+                <div className="col-md-2 col-sm-2"></div>
+            </div> 
             <div className="row">
                 <div className="col-sm-2"></div>
                 <div className="col-sm-8">
@@ -102,6 +112,7 @@ export default function ContactForm() {
                             errorMsg={nameErrorMsg}
                             errorFlag={nameErrorFlag}
                             required={true}
+                            labelColor={'white'}
                         />
                     </div>
                 </div>
@@ -121,6 +132,7 @@ export default function ContactForm() {
                             errorMsg={phoneErrorMsg}
                             errorFlag={phoneErrorFlag}
                             required={true}
+                            labelColor={'white'}
                         />
                     </div>
                 </div>
@@ -137,6 +149,7 @@ export default function ContactForm() {
                             errorMsg={emailErrorMsg}
                             errorFlag={emailErrorFlag}
                             required={true}
+                            labelColor={'white'}
                         />
                     </div>
                 </div>
@@ -153,11 +166,24 @@ export default function ContactForm() {
                             maxLength={340}
                             value={request}
                             onChange={requestHandler}
+                            labelColor={'white'}
                         />
                     </div>
                 </div>
                 <div className="col-sm-2"></div>
             </div>
+            <div className="row">
+                <div className="col-sm-6"></div>
+                <div className="col-sm-4">
+                    <div className="contact-button-section">
+                        <button className="submit-btn">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+                <div className="col-sm-2"></div>
+            </div>
+        </div>
         </div>
         </section>
     )

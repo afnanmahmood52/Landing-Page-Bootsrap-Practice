@@ -1,3 +1,52 @@
-/* .phone-field{
-    margin-top: 15px;
-} */
+section#\#contact-form {
+    background-color: #0e2233;
+    margin: 30 20px;
+}
+
+.contact-form {
+    padding: 40px 0px;
+}
+
+button.submit-btn {
+    margin: 10px 0;
+    width: 25%;
+    /* height: 40px; */
+    float: right;
+    /* font-size: 19px; */
+    font-family: sans-serif;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-weight: 700;
+    border: white 2px solid;
+    color: #0e2233;
+    outline: none;
+}
+
+button.submit-btn:hover {
+    color: white;
+    background-color: #0e2233 ;
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+}
+
+.contact-form-main-title{
+    margin-bottom: 25px;
+}
+
+.contact-form-main-title h1 {
+    color: white;
+    text-align: center;
+    font-size: 55px;
+}
+
+@media (max-width: 1030px) {
+    .contact-form-main-title h1 {
+        font-size: 40px;
+    }    
+}
+
+@media (max-width: 768px) {
+    .contact-form-main-title h1 {
+        font-size: 30px;
+    }    
+}

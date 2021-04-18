@@ -18,8 +18,9 @@ section#\#section2 {
 }
 
 .about-main-title h1 {
+    color: #0e2233;
     text-align: center;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: bold;
 }
 
@@ -36,15 +37,18 @@ section#\#section2 {
 
 @media (max-width: 1030px) {
     .about-main-title h1 {
-        font-size: 50px;
+        font-size: 60px;
     }    
 }
 
 @media (max-width: 768px) {
     .about-main-title h1 {
-        font-size: 37px;
+        font-size: 50px;
     }    
 }
 
 @media (max-width: 576px) {
+    .about-main-title h1 {
+        font-size: 37px;
+    }    
 }

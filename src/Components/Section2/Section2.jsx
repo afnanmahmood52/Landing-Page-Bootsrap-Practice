@@ -7,13 +7,13 @@ export default function Section2() {
         <section id="#section2">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-3 col-sm-3"></div>
-                    <div className="col-md-6 col-sm-6">
+                    <div className="col-md-2 col-sm-2"></div>
+                    <div className="col-md-8 col-sm-8">
                         <div className="about-main-title">
                             <h1>WHO WE ARE?</h1>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-3"></div>
+                    <div className="col-md-2 col-sm-2"></div>
                 </div> 
 
                 <div className="row">   
